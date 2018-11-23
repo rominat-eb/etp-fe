@@ -1,24 +1,31 @@
-.events-list-box {
-    display: flex;
-    margin-left: 20px;
-    margin-top: 20px;
-    position: relative;
+* {
+    font-family: Neue Plak,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
 }
 
-.event_box {
-    display: block;
+.events-list-title {
+    padding: 10px;
+}
+
+.events-list-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+.event-box {
+    display: flex;
+    padding: 20px;
 }
 
 .event-box__img {
     border-radius: 5%;
     height: 150px;
     width: 300px;
-    display: inline;
 }
 
-.event-box__right_side_info {
-    float: right;
-    font-family: Neue Plak,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+.event-box__right_side_info {    
     margin-left: 10px;
     width: 400px;
 }
